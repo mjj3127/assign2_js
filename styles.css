@@ -1,0 +1,74 @@
+
+
+body {
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    background-color: #fdf0f6;
+    color: #4a235a;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #ff1493; 
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 600;
+    color: #ff69b4; 
+    margin-bottom: 8px;
+}
+
+h3 {
+    font-size: 28px;
+    font-weight: 500;
+    color: #ff85a2;
+    margin-bottom: 6px;
+}
+
+
+p#myStudentId {
+    font-size: 50px;
+    font-weight: bold;
+    color: #ff69b4;
+    margin-top: 10px;
+}
+
+
+input, select, button {
+    font-family: 'Dancing Script', cursive;
+    font-size: 22px; 
+    border-radius: 12px;
+    padding: 10px;
+    margin: 12px;
+    border: 2px solid #ff69b4;
+}
+
+
+button {
+    background-color: #ff69b4;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 12px 20px;
+}
+
+button:hover {
+    background-color: #ff1493;
+    transform: scale(1.1);
+}
+
+
+#imageDisplay {
+    width: 350px;
+    height: auto;
+    border-radius: 20px;
+    margin-top: 20px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
